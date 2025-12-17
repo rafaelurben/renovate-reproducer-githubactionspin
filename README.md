@@ -1,17 +1,15 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 40056
 
 ## Current behavior
 
-Explain the current behavior here.
+Python dependencies are detected and visible on the mend developer portal but not in the dependency dashboard. No updates are generated.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Python dependencies are still correctly generated.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/40056
+
+Note: I am aware that the reproducer repository is still using my [org-inherited config](https://github.com/rafaelurben/renovate-config/). I have no clue how I could exclude the repository from using it.
